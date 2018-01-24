@@ -7,3 +7,8 @@ def my_collect(array)
   end
   collection
 end
+
+names = []
+my_collect(names) do |name|
+  name.split(" ").first
+end
