@@ -13,7 +13,7 @@ my_collect(names) do |name|
   name.split(" ").first
 end
 
-languanges = []
-my_collect(languanges) do |languange|
-  languange.upcase
+languages = []
+my_collect(languages) do |language|
+  language.upcase
 end
