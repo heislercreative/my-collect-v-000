@@ -8,12 +8,12 @@ def my_collect(array)
   collection
 end
 
-names = []
-my_collect(names) do |name|
-  name.split(" ").first
-end
-
-languages = []
-my_collect(languages) do |language|
-  language.upcase
-end
+# names = []
+# my_collect(names) do |name|
+#   name.split(" ").first
+# end
+# 
+# languages = []
+# my_collect(languages) do |language|
+#   language.upcase
+# end
