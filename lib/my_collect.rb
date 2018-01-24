@@ -14,6 +14,6 @@ my_collect(names) do |name|
 end
 
 languanges = []
-my_collect(languanges) do |language|
-  language.upcase
+my_collect(languanges) do |languange|
+  languange.upcase
 end
